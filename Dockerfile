@@ -24,4 +24,6 @@ EXPOSE 8080
 
 VOLUME ["/youtube-dl"]
 
+RUN ln -s /usr/local/bin/yt-dlp /usr/local/bin/youtube-dl
+
 CMD [ "python", "-u", "./youtube-dl-server.py" ]

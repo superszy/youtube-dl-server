@@ -3,4 +3,4 @@ jinja2
 python-multipart
 starlette
 uvicorn[standard]
-youtube-dl
+yt-dlp
