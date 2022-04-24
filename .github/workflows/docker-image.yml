@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: kmb32123/youtube-dl-server
+          images: superszy/yt-dlp-server
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
