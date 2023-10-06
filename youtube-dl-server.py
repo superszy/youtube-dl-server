@@ -11,7 +11,7 @@ import uvicorn
 from yt_dlp import YoutubeDL
 from collections import ChainMap
 
-templates = Jinja2Templates(directory='templates')
+templates = Jinja2Templates(directory='')
 
 app_defaults = {
     "YDL_FORMAT": "bestvideo+bestaudio/best",
