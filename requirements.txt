@@ -1,6 +1,1 @@
-aiofiles
-jinja2
-python-multipart
-starlette
-uvicorn[standard]
 yt-dlp
